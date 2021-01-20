@@ -78,11 +78,40 @@
    - Azure Kubernetis service [PaaS] : 많은 수의 컨테이너를 관리하기 위한 컨테이너 오케스트레이션 서비스
    
    
+## 6) Azure Network Services
 
+   - Azure Virtual Network : 리소스 간 안전한 통신을 제공
+   - Azure Load Balancer : 
+   - VPN Gateway : 온 프레미스와 가상 네트워크 통신을 안전하게 연결
+   - Azure Application Gateway : 웹 응용 프로그램에 대한 트래픽을 관리할 수 있는 웹 트래픽 로드 밸런서
+   - Content Delivery Network : 사용자에게 웹 콘텐츠를 효율적으로 전달할 수 있는 분산 서버 네트워크
+   
 
-
-
-
+## 7) Azure Storage Services
+   - 데이터 형태
+      -> 정형 데이터 : 정해진 스키마가 있고, 데이터 필드 속성을 유지
+      -> 반정형 데이터 : 변경 가능성이 있는 스키마로 상대적으로 덜 구조화 된 필드 및 속성 [Html, json]
+      -> 비정형 데이터 : 스키마나 데이터 구조가 정해지지 않음 [이미지, 비디오]
+      
+   - IaaS 서비스 : 
+      -> Disk
+      -> Files [여러개의 VM에서 NSA형식으로 접근하여 사용 가능]
+   - PaaS 서비스 : 
+      -> Containers [Blob스토리지, 비정형 데이터]
+      -> Tables : NoSQL 데이터 저장 [key/value 형식의 기본적인 형태]
+      -> Queues : 메시지 저장 및 처리
+      
+   - 스토리지 계정 (Storage Account) :  
+      -> Blob, 파일, 큐, 테이블, 디스크 등, 모든 Azure Storage 데이터 개체가 포함
+      -> HTTP 또는 HTTPS를 통해 전 세계 어디에서 나 액세스
+      -> 복제 옵션 : 
+         -> 로컬 중복 스토리지 (LRS) : 단일 데이터 센터 내에서 데이터를 3 copy로 보관
+	 -> 영역 중복 스토리지 (ZRS) : 기본 지역에 있는 3개의 Azure 가용성 영역에서 데이터를 동기적으로 복사
+	 -> 지역 중복 스토리지 (GRS) : LSR을 사용하여 기본 지역의 단일 물리적 위치에 3 copy, 보조 지역의 단일 물리적 위치에 데이터를 비동기적으로 복사  
+	 -> 지역 영역 중복 스토리지 (GZRS) : 
+      -> Data Lake Storage Gen2 : 
+         -> 계층 구조 네임스페이스 : 사용으로 체크하면 빅데이터 처리용도   
+      
 
 
 
