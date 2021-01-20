@@ -113,8 +113,11 @@
          * 계층 구조 네임스페이스 : 사용으로 체크하면 빅데이터 처리용도     
       
 
-
-
+## 8) Azure Database Services
+   * Azure Cosmos DB : PaaS형식의 nosql 저장소
+   * Azure SQL Database : 가장 최신 버전의 MS SQL Server RDBMS를 지원
+   * Azure Database Migration : 다양한 원천 데이터 소스로부터 클라우드로의 데이터 이관을 도와주는 관리형 데이터 이관 서비스
+   
 
 
 
