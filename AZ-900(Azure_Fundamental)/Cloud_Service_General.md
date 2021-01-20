@@ -31,8 +31,8 @@
    - 공급자/사용자 사이의 관리영역에 따라 아래와 같이 나눌 수 있다. 
       * On-premises : (Private Cloud) 모든 책임은 사용자 
       * IaaS : 고객이 VM부터 책임 
-      * PaaS : 고객이 Application부터 책임 
-         -> MS Office와 같이 완성품 SW를 사용하는게 아니라, 자사의 App.을 올리는 경우는 모두 PaaS 
+      * PaaS : 고객이 Application부터 책임  
+         ** MS Office와 같이 완성품 SW를 사용하는게 아니라, 자사의 App.을 올리는 경우는 모두 PaaS 
       * SaaS : 고객이 제공되는 Service의 Data 및 Access에 대한 책임 
       
 
