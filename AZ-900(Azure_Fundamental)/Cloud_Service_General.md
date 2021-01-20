@@ -1,49 +1,63 @@
-# Azure Components   
+Cloud 개요
 
 # 목차
-1) Azure VM
-2) VM scale sets
-3) Azure App Services
-4) Azure Functions
-5) Container services
-6) Azure Network Services
-7) Azure Storage Services
-8) Azure Database Services
-9) Azure 솔루션
-10) Azure 관리도구
-11) Azure Identity 서비스
-12) Azure 보안도구
-13) Azure 가버넌스 방법론
-14) Azure 액세스 제어 RBAC
-15) Azure 모니터링 및 관리
-16) 개인정보 보호
+1) Cloud 특징
+2) Cloud Type
+3) Cloud 주요 용어
+4) Azure Global Infra
 
 
-## 1) Azure VM [IaaS]
+## 1) Cloud 특징
 
-   - 클라우드 기반 응용 프로그램을 실행하기 위한 온디맨드 컴퓨팅 서비스
-   - VM을 끄면, VM에 할당된 Computing Resource가 릴리즈되어 비용 절감 가능 [Disk storage에 대해서는 비용 청구]
+   - 소비 기반 모델
+   - 기존의 베어메탈은 자본지출, 클라우드는 운영지출의 개념이다.
    
-   - 가상머신 생성 시 가용성 옵션 : 단일 VM 이상의 가용성을 확보하기 위한 옵션  
-   
-      * 인프라 중복이 필요하지 않습니다. : 단일VM으로 생성  
+
+## 2) Cloud Type
+
+   - Public Cloud : 
+      * 클라우드 서비스 또는 호스팅 공급자가 소유
+      * 여러 조직과 사용자에게 리소스와 서비스를 제공
+      * 초기 투자비용 없음 / 민첩성 / 소비기반모델  
+   - Private Cloud : 
+      * 클라우드 리소스를 사용하는 조직이 소유 및 운영
+      * 조직은 그들의 데이터 센터에 클라우드 환경을 구성
+      * 조직에게 본인들이 제공하는 서비스를 운영할 책임이 있음
+      * 제어력과 보안이 중요시될 경우 사용      
+   - Hybrid Cloud : 
+      * 업체는 하이브리드 클라우드 설정을 통해 애플리케이션을 사설 클라우드에서 실행할지, 공유 클라우드에서 실행할지 결정할 수 있다.
+      * 다른 업체의 클라우드를 혼합하여 사용할 수 있고, 퍼블릭/프라이빗을 섞을 수 있는 유연한 접근 방식
       
-      * 가용성 집합(Availability Sets) : 단일 데이터 센터 안에서 랙 단위를 묶어서 분신  
-         -> 1개 VM이 올라가 있는 랙에 문제가 있어도, 다른 랙의 VM이 커버  
-	 -> 장애 도메인(Fault Domain) : 동일한 전원과 네트워크 스위치를 사용하는 도메인으로 물리적인 랙으로 볼 수 있다.  
-	 -> 업데이트 도메인(Update Domain) : 동시에 유지관리를 진행하거나, 부팅될 수 있는 논리적 그룹 
-	    [WEB-WAS-DB 세트와 같은 수평적 개념]  
-	 -> 가용성 집합은 2개 이상의 FD와 2개 이상의 UD로 구성하여 가용성을 높인다.   
-	 
-      * 가용성 영역(Availability Zones) : 데이터 센터에 대한 장애를 방지하기 위해 여러 데이터 센터를 묶어 분산  
-         -> 가용성 영역을 선택할 경우, FD/UD 설정은 Azure가 알아서 운영한다.  
-	 -> Azure 지역 내의 고유한 물리적 위치  
-             - 각 영역은 독립된 전원, 냉각 및 네트워킹을 갖춘 하나 이상의 데이터 센터로 구성  
-	     - 복원력을 보장하기 위해 활성화된 모든 지역(Region)에서 최소한 세 개의 별도 영역(Zone)이 필요  
-	     - 영역 중복 서비스는 단일 지점 오류에서 보호하기 위해 가용성 영역에 애플리케이션 및 데이터를 복제  
+    - 공급자/사용자 사이의 관리영역에 따라 아래와 같이 나눌 수 있다. 
+      * On-premises : (Private Cloud) 모든 책임은 사용자
+      * IaaS : 고객이 VM부터 책임
+      * PaaS : 고객이 Application부터 책임
+      * SaaS : 고객이 제공되는 Service의 Data 및 Access에 대한 책임
 
-   	![Alt text](capture/AzureVMCreate1.PNG "단일VM")
 
-   	![Alt text](capture/AzureVMCreate2.PNG "가용성 영역 옵션")
+## 3) Cloud 주요 용어
 
-  	![Alt text](capture/AzureVMCreate3.PNG "가용성 집합 옵션")
+   - Fault Tolerance : 내결함성
+   - High Availability : 고가용성
+   - Disaster Recover : 재해복구
+   - Scalability : 확장성
+   - Elasticity : 탄력성
+
+
+## 4) Azure Global Infra
+    
+   - Geography [지리] : 중앙아시아 / 아시아 / 유럽/ 미주 4개로 나눔
+   - Region [지역] : 사용자는 지역까지만 선택할 수 있다. [한국(중부), 한국(남부)...]
+      * 지역은 불바다가 될 수 있으니, 각각의 Region은 Paired Region을 가진다.
+        [한국 중부 Region <-> 한국 남부 Region]
+      * Paired Region은 상호간의 DR을 담당한다.
+   - Availability Zones [가용성 영역] : 
+      * Azure Region 내에서의 물리적 분리
+      * 하나 혹은 그 이상의 데이터 센터로 구성되며, 독립된 전원 및 네트워크를 보유
+      * 독립적으로 동작하며, 하나의 가용성 영역에 장애 시, 다른 영역에서 연속적으로 서비스
+    - Availability Set [가용성 집합] : 
+      * WEB-WAS-DB 티어의 묶음 2개가 2개의 VM에 중복되면 1개의 VM이 내려가도 문제가 없다.
+      * WEB-WAS-DB 티어의 묶음 2개가 2개의 VM에 중복되고, 각 VM이 서로다른 가용성 영역에 있으면 더 안전하다.
+      
+   
+      
