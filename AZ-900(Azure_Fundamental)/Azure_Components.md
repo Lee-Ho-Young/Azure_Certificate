@@ -101,7 +101,7 @@
       * Tables : NoSQL 데이터 저장 [key/value 형식의 기본적인 형태]  
       * Queues : 메시지 저장 및 처리  
       
-   * 스토리지 계정 (Storage Account) :  
+   * 스토리지 계정 (Storage Account) [IaaS] :  
       * Blob, 파일, 큐, 테이블, 디스크 등, 모든 Azure Storage 데이터 개체가 포함  
       * HTTP 또는 HTTPS를 통해 전 세계 어디에서 나 액세스  
       * 복제 옵션 :   
