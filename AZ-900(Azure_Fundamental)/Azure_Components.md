@@ -114,7 +114,7 @@
       
 
 ## 8) Azure Database Services
-     [Database Component의 경우, patch, backup 등의 기반 관리가 필요하기에 모두 PaaS]
+     **[Database Component의 경우, patch, backup 등의 기반 관리가 필요하기에 모두 PaaS]**
    * Azure Cosmos DB : PaaS형식의 nosql 저장소
    * Azure SQL Database : 가장 최신 버전의 MS SQL Server RDBMS를 지원
    * Azure Database Migration : 다양한 원천 데이터 소스로부터 클라우드로의 데이터 이관을 도와주는 관리형 데이터 이관 서비스
