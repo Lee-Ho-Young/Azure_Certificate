@@ -26,14 +26,14 @@
       * 제어력과 보안이 중요시될 경우 사용      
    - Hybrid Cloud : 
       * 업체는 하이브리드 클라우드 설정을 통해 애플리케이션을 사설 클라우드에서 실행할지, 공유 클라우드에서 실행할지 결정할 수 있다.
-      * 다른 업체의 클라우드를 혼합하여 사용할 수 있고, 퍼블릭/프라이빗을 섞을 수 있는 유연한 접근 방식
+      * 다른 업체의 클라우드를 혼합하여 사용할 수 있고, 퍼블릭/프라이빗을 섞을 수 있는 유연한 접근 방식 
       
    - 공급자/사용자 사이의 관리영역에 따라 아래와 같이 나눌 수 있다. 
-      * On-premises : (Private Cloud) 모든 책임은 사용자
-      * IaaS : 고객이 VM부터 책임
-      * PaaS : 고객이 Application부터 책임
-         -> MS Office와 같이 완성품 SW를 사용하는게 아니라, 자사의 App.을 올리는 경우는 모두 PaaS
-      * SaaS : 고객이 제공되는 Service의 Data 및 Access에 대한 책임
+      * On-premises : (Private Cloud) 모든 책임은 사용자 
+      * IaaS : 고객이 VM부터 책임 
+      * PaaS : 고객이 Application부터 책임 
+         -> MS Office와 같이 완성품 SW를 사용하는게 아니라, 자사의 App.을 올리는 경우는 모두 PaaS 
+      * SaaS : 고객이 제공되는 Service의 Data 및 Access에 대한 책임 
       
 
 ## 3) Cloud 주요 용어
