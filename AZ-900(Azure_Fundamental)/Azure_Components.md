@@ -105,15 +105,16 @@
       * Blob, 파일, 큐, 테이블, 디스크 등, 모든 Azure Storage 데이터 개체가 포함  
       * HTTP 또는 HTTPS를 통해 전 세계 어디에서 나 액세스  
       * 복제 옵션 :   
-         * 로컬 중복 스토리지 (LRS) : 단일 데이터 센터 내에서 데이터를 3 copy로 보관  
-         * 영역 중복 스토리지 (ZRS) : 기본 지역에 있는 3개의 Azure 가용성 영역에서 데이터를 동기적으로 복사  
-         * 지역 중복 스토리지 (GRS) : LSR을 사용하여 기본 지역의 단일 물리적 위치에 3 copy, 보조 지역의 단일 물리적 위치에 데이터를 비동기적으로 복사    
-         * 지역 영역 중복 스토리지 (GZRS) :  
+         -> 로컬 중복 스토리지 (LRS) : 단일 데이터 센터 내에서 데이터를 3 copy로 보관  
+         -> 영역 중복 스토리지 (ZRS) : 기본 지역에 있는 3개의 Azure 가용성 영역에서 데이터를 동기적으로 복사  
+         -> 지역 중복 스토리지 (GRS) : LSR을 사용하여 기본 지역의 단일 물리적 위치에 3 copy, 보조 지역의 단일 물리적 위치에 데이터를 비동기적으로 복사    
+         -> 지역 영역 중복 스토리지 (GZRS) :  
       * Data Lake Storage Gen2 :   
-         * 계층 구조 네임스페이스 : 사용으로 체크하면 빅데이터 처리용도     
+         -> 계층 구조 네임스페이스 : 사용으로 체크하면 빅데이터 처리용도     
       
 
 ## 8) Azure Database Services
+     [Database Component의 경우, patch, backup 등의 기반 관리가 필요하기에 모두 PaaS]
    * Azure Cosmos DB : PaaS형식의 nosql 저장소
    * Azure SQL Database : 가장 최신 버전의 MS SQL Server RDBMS를 지원
    * Azure Database Migration : 다양한 원천 데이터 소스로부터 클라우드로의 데이터 이관을 도와주는 관리형 데이터 이관 서비스
