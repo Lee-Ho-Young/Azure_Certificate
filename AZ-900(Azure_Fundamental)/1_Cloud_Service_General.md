@@ -10,6 +10,9 @@
 ## 1) Cloud 특징
 
    - 소비 기반 모델
+      * Expenditure model : 
+         -> CapEx [Capital Expenditure]
+         -> OpEx [Operational Expenditure]
    - 기존의 베어메탈은 자본지출, 클라우드는 운영지출의 개념이다.
    
 
