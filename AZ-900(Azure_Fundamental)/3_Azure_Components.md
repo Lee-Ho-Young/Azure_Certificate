@@ -125,6 +125,51 @@
    * Azure Database Migration : 다양한 원천 데이터 소스로부터 클라우드로의 데이터 이관을 도와주는 관리형 데이터 이관 서비스
    
 
+## 9) Azure 솔루션 
+
+   * IOT 솔루션 : 
+      * Azure IoT Central : IoT서비스 구축을 위한 SaaS 형태의 관리형 서비스
+        [디바이스 연결, 모니터링 그리고 관리 및 확장 지원]  
+      * Azure IoT Hub : 클라우드 PaaS 기반의 IoT관리 플랫폼 서비스 
+      
+   * BigData 솔루션 : 
+      * Azure Synapse Analytics : 수십 페타의 데이터를 MPP기반으로 빠르게 처리 및 온디맨드 분석을 지원하여 인사이트를 제공
+        [DW + Spark, MPP : Massive Parallel Processing]  
+      * Azure HDInsight : 오픈소스 Hadoop 기반의 관리형 서비스 제공
+        [쉽고 빠르게 데이터 처리가 가능, 호튼웍스 버전]
+	
+   * AI 솔루션 : 
+      * Azure Machine Learning service : SDK기반으로 손쉽게 코드를 작성하고 train, test, deploy가 가능한 플랫폼 제공
+        [코드 기반의 머신러닝 서비스]
+      * Azure Machine Learning Studio : GUI 기반으로 코드 없이 손쉽게 ML모델을 테스트 할 수 있는 플랫폼 제공
+        [GUI 기반 머신러닝 서비스]
+	
+   * DevOps 솔루션 : 
+      * Azure DevOps services : 클라우드 기반 통합 개발 협업 서비스 (CI/CD)
+        [파이프라인, Git저장소, 오픈소스 연계 등을 지원]  
+      * Azure DevTest Labs : 쉽고 빠르게 재사용 가능한 템플릿을 통해 개발코드에 대한 테스트 가능
+        [개발 테스트 솔루션]
+      
+   * 서버리스 : 
+      * Azure Functions : 서비스를 위한 코드에 집중
+        [인프라 및 플랫폼에서 자유도 확보]  
+      * Azure Logic Apps : 작업 및 비지니스 프로세스를 자동화하고 오케스트레이션 할 수 있는 서비스 제공
+        [UI기반으로 Workflow 구성 가능]
+      * Azure Event Grid : 이벤트 라우팅 서비스
+	 
+
+## 10) Azure 관리도구
+
+   * Azure Portal : GUI기반
+   * Azure PowerShell / Azure CLI : 별도 클라이언트 설치 필요
+   * Azure Cloud Shell : 클라이언트 설치 없이 브라우저를 통해 CLI접근
+     [Azure Portal에서 CMD창과 유사한 화면을 띄울 수 있다. PowerShell/Bash 중 선택 가능]
+   * Azure Mobile App : 
+   * Azure REST API : 
+   * Azure Advisor : Best Practice 기반의 개인화된 권장 사항 제공
+     [무료로 제공되는 기능으로 성능/보안/가용성/비용적인 측면의 추천을 확인 할 수 있다.]
+   * Azure Quick Start Template : 미리 만들어진 템플릿으로 코드 형식은 JSON이다.
 
 
+## 11) Azure Identity 서비스
 
