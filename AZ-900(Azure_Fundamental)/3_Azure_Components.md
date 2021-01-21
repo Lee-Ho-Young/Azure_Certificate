@@ -173,3 +173,44 @@
 
 ## 11) Azure Identity 서비스
 
+   * Azure Active Directory : 인증 및 권한    
+      * 인증 [Authentication] : 사람 또는 서비스를 식별   
+      * 권한 [Authorization] : 인증된 사용자에 대한 엑세스 수준을 결정 
+      * AAD는 클라우드 기반의 신원확인 및 접근관리 서비스  
+         -> B2B, B2C ID서비스 및 디바이스 관리  
+	 -> 다단계 인증 [Azure Multi-Factor Authentication]  
+	    [아래의 3가지 중 두개 이상의 요소를 요구하여 신원확인에 대한 추가 보안을 제공]  
+	    [Something you know]  
+	    [Something you possess]  
+	    [Something you are]  
+	   
+	   
+## 12) Azure 보안도구 
+      
+   * Azure Security Center [보안센터]
+      * Azure 및 온프레미스 서비스에 대한 위협 보호 기능을 제공하는 모니터링 서비스  
+      * 보안 권장사항을 제공  
+      * 장애 시 감지/평가/진단 단계에서 보안센터를 사용 [실제 보안개선은 알아서 해야함]  
+  
+   * Azure Key Vault [키 자격증명]  
+      * 응용 프로그램 보안을 중앙 집중식 클라우드에 저장하여 엑세스 권한을 안전하게 제어  
+        [Key Vault에 대한 접근로그를 관리]  
+      * 비밀번호 관리/ 키 관리 / 인증서 관리 / 하드웨어 보안모듈 등을 지원  
+      
+   * Azure Information Protection [AIP 정보보호]  
+      * 레이블을 적용하여 문서 및 전자 메일을 분류하고 보호  
+      * 관리자가 정의한규칙 및 조건을 자동으로 사용  
+      * 문서보안/이글아이 솔루션처럼 권한 부여를 통해 문서의 내용을 보호  
+        [특정 사용자 그룹만 열람 가능, 전화번호 패턴에 대한 마스킹 처리]  
+        [Key Vault에 대한 접근로그를 관리]   
+      * 비밀번호 관리/ 키 관리 / 인증서 관리 / 하드웨어 보안모듈 등을 지원    
+       
+   * Azure Advanced Threat Protection [ATP 고급위협보호]  
+      * 지능형위쳡, 손상된 ID 및 악의적인 내부자 작업을 식별/탐지 및 조사하기 위한 클라우드 기반의 보안 솔루션  
+      * Azure ATP :  
+         -> Portal : 의심스러운활동을 모니터링하고 대응  
+	 -> Sensors : 도메인 컨트롤러에 직접 설치  
+	 -> Cloud Service : Azure 인프라에서 실행  
+      
+## 13) Azure 가버넌스 방법론
+            
