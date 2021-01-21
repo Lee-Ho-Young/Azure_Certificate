@@ -76,13 +76,20 @@
       * Basic : 기술지원 X
       * Developer : 메일을 통한 기술지원
       * Standard : 전화를 통한 기술지원
-      * Professional : 아키텍쳐 지원 
-      * Premier :
+      * Professional : 아키텍쳐 지원?
+      * Premier : 아키텍쳐 지원
    
 ![Alt text](capture/AzureSupportPlan.png "Support Plan 비교")       
        
        
 ## 4) Azure 서비스 수명주기
       
-      
-      
+   * Azure에서 제공하는 서비스는 Preview / GA 단계로 나뉜다.  
+     [Preview : 미리보기 / GA : General Availability]  
+      * Preview : 평가 목적으로 Azure 기능의 미리 보기를 제공 [싸다 / 기술지원X / SLA X]  
+         -> 비공개 미리 보기 : 특정 Azure 사용자에게만 공개   
+         -> 공개 미리 보기 : 모든 Azure 사용자에게 공개  
+         [Azure 포탈에도 Preview가 있다. (https://preview.portal.azure.com)]  
+      * GA [General Availability] :   
+         -> 기능이 성공적으로 검증되면, Azure의 기본 제품으로서 고객에게 제공  
+      * Azure 업데이트 사이트에서 다양한 기능에 대한 업데이트 소식을 실시간 모니터링 가능  
