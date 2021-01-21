@@ -110,4 +110,7 @@
          -> 지리적 영역1 / 지리적 영역2 2개 관리 그룹에 포함된 모든 구독에 정책이 적용된다.  
          
 ![Alt text](capture/AzureManagementGroup.PNG "관리그룹 계층구조")   
- 
+![Alt text](capture/AzureManagementGroupDetail.PNG "관리그룹 계층구조")   
+
+
+
