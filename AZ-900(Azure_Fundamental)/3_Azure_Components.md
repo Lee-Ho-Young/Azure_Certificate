@@ -238,11 +238,15 @@
       * 해당 리소스에 대한 RBAC 설정 가능  
       * 리소스 그룹에 대한 RBAC 설정도 가능   
 
+![Alt text](capture/AzureAccessControl.PNG "리소스 엑세스 컨트롤") 
+
    * Resource Locks [잠금]    
       * 실수로 삭제되거나 수정되지 않도록 Azure 리소스를 보호  
       * Azure Portal에서 구독, 리소스 그룹 또는 개별 리소스 수준에서 잠금을 관리 (상속 지원)  
          -> CanNotDelete : 읽기(O)/업데이트(O)/삭제(X)   
          -> ReadOnly : 일기(O)/업데이트(X)/삭제(X)  
+
+![Alt text](capture/AzureResourceLock.PNG "리소스 잠금") 
 
    * Azure Blueprints   
       * Azure 리소스 및 정책들을 즉시 재생성 할 수 있도록, 재사용 가능한 환경 정의를 만들 수 있다.  
@@ -272,9 +276,10 @@
 
 ## 16) 개인정보 보호
 
-   * Trust Center : 
-   * Service Trust Portal : Azure와 관련된 다양한 감사 보고서 열람
+   * Trust Center :  
+   * Service Trust Portal : Azure와 관련된 다양한 감사 보고서 열람  
 
+![Alt text](capture/AzureServiceTrustPortal.PNG "서비스 신뢰 포탈") 
 
 
 
