@@ -46,6 +46,7 @@
    - Disaster Recover : 재해복구
    - Scalability : 확장성
    - Elasticity : 탄력성
-
+   - SLA [Service Level Agreement] : IT 용어이지만 일단 설명을 적자  
+      * SLA 수준이 다른 서비스 2개가 있을 경우 복합 SLA의 구성 : 백분율을 곱한다.  
 
       
