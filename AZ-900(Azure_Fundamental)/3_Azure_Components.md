@@ -47,11 +47,11 @@
 	 -> Availability Sets [가용성 집합]을 활용할 경우 99.95% 수준의 SLA 보장
 	 -> Availabiliyt Zone [가용성 영역]을 활용할 경우 99.99% 수준의 SLA 보장
 	 
-   	![Alt text](capture/AzureVMCreate1.PNG "단일VM")
-
-   	![Alt text](capture/AzureVMCreate2.PNG "가용성 영역 옵션")
-
-  	![Alt text](capture/AzureVMCreate3.PNG "가용성 집합 옵션")
+![Alt text](capture/AzureVMCreate1.PNG "단일VM") 
+	
+![Alt text](capture/AzureVMCreate2.PNG "가용성 영역 옵션") 
+	
+![Alt text](capture/AzureVMCreate3.PNG "가용성 집합 옵션") 
  
  
 ## 2) VM scale sets [vm 확장집합]
