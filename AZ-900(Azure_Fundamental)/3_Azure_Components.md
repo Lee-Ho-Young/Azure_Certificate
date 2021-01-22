@@ -42,10 +42,10 @@
 	 -> 복원력을 보장하기 위해 활성화된 모든 지역(Region)에서 최소한 세 개의 별도 영역(Zone)이 필요    
 	 -> 영역 중복 서비스는 단일 지점 오류에서 보호하기 위해 가용성 영역에 애플리케이션 및 데이터를 복제   
 	 
-      * VM 설정별 SLA 수준 
-         -> 프리미엄 SSD를 데이터 디스크로 사용하는 단일 인스턴스 가상 VM에 대해서는 99.9% 수준의 SLA 보장
-	 -> Availability Sets [가용성 집합]을 활용할 경우 99.95% 수준의 SLA 보장
-	 -> Availabiliyt Zone [가용성 영역]을 활용할 경우 99.99% 수준의 SLA 보장
+      * VM 설정별 SLA 수준   
+         -> 프리미엄 SSD를 데이터 디스크로 사용하는 단일 인스턴스 가상 VM에 대해서는 99.9% 수준의 SLA 보장  
+	 -> Availability Sets [가용성 집합]을 활용할 경우 99.95% 수준의 SLA 보장  
+	 -> Availabiliyt Zone [가용성 영역]을 활용할 경우 99.99% 수준의 SLA 보장  
 	 
 ![Alt text](capture/AzureVMCreate1.PNG "단일VM") 
 	
