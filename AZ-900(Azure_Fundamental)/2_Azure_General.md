@@ -65,7 +65,7 @@
    * 비용 최소화 방안 : 
       * 가격 계산기 혹은 TCO 계산기로 예상 비용 확인  
       * Azure Advisor를 통해 사용량 모니터링  
-      * 지출 한도를 지정  
+      * 비용관리 기능으 지출 한도를 지정  
       * Azure Reserved Resource 혹은 Azure Hybrid Benefit을 활용  
       * 저렴한 Region 선택  
       * 태그를 적용하여 비용별 사용자를 식별   
