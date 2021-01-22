@@ -87,7 +87,7 @@
       
    * Azure에서 제공하는 서비스는 Preview / GA 단계로 나뉜다.  
      [Preview : 미리보기 / GA : General Availability]  
-      * Preview : 평가 목적으로 Azure 기능의 미리 보기를 제공 [싸다 / 기술지원X / SLA X]  
+      * Preview : 평가 목적으로 Azure 기능의 미리 보기를 제공 [Cheap / 기술지원 X / SLA X]  
          -> 비공개 미리 보기 : 특정 Azure 사용자에게만 공개   
          -> 공개 미리 보기 : 모든 Azure 사용자에게 공개  
          [Azure 포탈에도 Preview가 있다. (https://preview.portal.azure.com)]  
